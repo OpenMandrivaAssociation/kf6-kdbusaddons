@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DBusAddons
 %define devname %mklibname KF6DBusAddons -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-kdbusaddons
 Version: 5.240.0
@@ -72,7 +72,6 @@ Qt addon library with a collection of D-Bus utilities
 %files -n %{devname}
 %{_includedir}/KF6/KDBusAddons
 %{_libdir}/cmake/KF6DBusAddons
-%{_qtdir}/mkspecs/modules/qt_KDBusAddons.pri
 %{_qtdir}/doc/KF6DBusAddons.*
 
 %files -n %{libname}

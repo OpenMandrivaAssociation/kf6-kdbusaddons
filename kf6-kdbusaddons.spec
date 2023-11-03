@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DBusAddons
 %define devname %mklibname KF6DBusAddons -d
-%define git 20231022
+%define git 20231103
 
 Name: kf6-kdbusaddons
 Version: 5.240.0

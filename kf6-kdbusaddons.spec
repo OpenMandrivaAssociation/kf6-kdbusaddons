@@ -82,3 +82,6 @@ Qt addon library with a collection of D-Bus utilities
 
 %files -n %{libname}
 %{_libdir}/libKF6DBusAddons.so*
+
+# keep %mklibname visible for rpmlint SpecCheck (checks last line only)
+# %mklibname
